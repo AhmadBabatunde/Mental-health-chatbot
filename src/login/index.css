@@ -1,0 +1,74 @@
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.therapy-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  /* text-align: center; */
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+  /* font-weight: bold; */
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group input[type="range"] {
+  width: 90%;
+}
+
+.form-group span {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skip-btn,
+.submit-btn {
+  width: 45%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skip-btn {
+  background-color: #ccc;
+  color: white;
+}
+
+.submit-btn {
+  background-color: rgb(95, 95, 192);
+  color: white;
+}

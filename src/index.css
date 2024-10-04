@@ -1,0 +1,104 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #c4cde7;
+}
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+  display: none;
+}
+.react-chatbot-kit-chat-container {
+  width: 100% !important;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  height: 100vh;
+  padding: 20px;
+}
+.react-chatbot-kit-chat-inner-container {
+  position: relative;
+  height: 100%;
+}
+.react-chatbot-kit-chat-message-container {
+  overflow: scroll;
+  height: 90%;
+  padding: 15px;
+}
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 15px !important;
+  width: 70%;
+}
+.react-chatbot-kit-chat-header {
+  display: none !important;
+}
+.react-chatbot-kit-chat-bot-message-container {
+  display: flex;
+}
+/* .react-chatbot-kit-chat-input-container {
+   width: 100%; 
+} */
+.react-chatbot-kit-chat-input-form {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  border-radius: 30px;
+  padding: 8px 30px;
+  background: #fff;
+}
+.react-chatbot-kit-chat-input:focus {
+  outline: none;
+}
+.react-chatbot-kit-chat-input {
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  width: 80%;
+  background: none;
+}
+.react-chatbot-kit-chat-btn-send {
+  width: 8%;
+  border: none;
+  background: none;
+}
+.react-chatbot-kit-chat-btn-send svg {
+  /* font-size: 12px; */
+  transform: scale(0.8);
+  fill: blue;
+}
+.react-chatbot-kit-chat-bot-message {
+  color: #3a3b3d;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0 10px 10px 10px;
+  text-align: left;
+  font-weight: 500;
+}
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #fff !important;
+}
+.react-chatbot-kit-user-chat-message-container {
+  display: flex;
+  justify-content: end;
+}
+.react-chatbot-kit-user-chat-message {
+  color: #fff !important;
+  background-color: #1f4dd6 !important ;
+  padding: 10px;
+  border-radius: 10px 0 10px 10px;
+  min-width: 100px;
+  max-width: 500px;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+  text-align: justify;
+  margin: 20px 0;
+}
+/* .react-chatbot-kit-user-avatar-container {
+   display: none !important; 
+} */
